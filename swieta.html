@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Święta | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+      font-size: 1.8rem;
+    }
+
+    .section h3 {
+      font-size: 1.3rem;
+      margin-top: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .swieto {
+      border: 2px solid transparent;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+      transition: box-shadow 1s ease-in-out, background-color 1s ease-in-out;
+    }
+
+    .swieto p {
+      margin: 0.5rem 0;
+    }
+
+    .swieto strong {
+      display: inline-block;
+      margin-top: 0.3rem;
+      color: #555;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+
+    .highlight-temp {
+      background-color: #fdf1d3;
+      box-shadow: 0 0 0 2px var(--accent-color);
+    }
+
+    .fade-out {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Święta i życie po śmierci</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="kalendarz.html">Kalendarz</a></li>
+        <li><a href="kultura.html">← Powrót do kultury</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <h2>Lista Świąt</h2>
+
+    <div class="swieto" id="noc-stworzenia">
+      <h3>Noc Stworzenia</h3>
+      <p>W noc stworzenia celebruje się powstanie życia na Nuli. Zwykle pije się i tańczy, ale najzwyklej w świecie dobrze się bawi i jest się głośnym.</p>
+      <p><strong>Bóg:</strong> Swaróg — bóg Stworzenia i Kowalstwa.</p>
+    </div>
+
+    <div class="swieto" id="tydzien-velesa">
+      <h3>Tydzień Velesa</h3>
+      <p>Rozpoczyna się drugiego tygodnia Lutego. Składa się wtedy wiele ofiar dla boga Zniszczenia, aby ten przysłał śmierć jak najpóźniej. Karmi się ziemię mlekiem, ofiaruje stare bydło i pali się stare plony.</p>
+      <p><strong>Bóg:</strong> Veles — bóg Zniszczenia i Śmierci.</p>
+    </div>
+
+    <div class="swieto" id="jare-gody">
+      <h3>Jare Gody</h3>
+      <p>Świętuje się zakończenie zimy. Pali się kukłę Marzanny (z wyjątkiem Redanii), tworzy pisanki, kadzi się wioski i miasta. Uroczystość kończy się ucztą i tańcem.</p>
+      <p><strong>Bóg:</strong> Jaruna — bogini Uzdrowienia i Przyrody.</p>
+    </div>
+
+    <div class="swieto" id="noc-nyji">
+      <h3>Dzień Kroda i Noc Nyji (Nyjda)</h3>
+      <p>Obchodzone przez Demony z Rozetu i Dyju. Składa się krwawe ofiary, tańczy i śpiewa w rytuale. Niektóre demony polują gołymi rękami na zwierzęta.</p>
+      <p><strong>Bogowie:</strong> Nyja i Krodo.</p>
+    </div>
+
+    <div class="swieto" id="dziady-wiosenne">
+      <h3>Dziady Wiosenne</h3>
+      <p>Czci się przodków i wzywa ich do domu. Odwiedza się ich groby i sprawdza, czy nie zostały zniszczone.</p>
+      <p><strong>Bóg:</strong> Żywa — bogini Sprawiedliwości i Prawa.</p>
+    </div>
+
+    <div class="swieto" id="stado">
+      <h3>Stado</h3>
+      <p>Święto wspólnoty. Śpiewy, tańce i zawody mające zbliżać ludzi do siebie w przyjaznej atmosferze.</p>
+      <p><strong>Bogowie:</strong> Perun i Zorza.</p>
+    </div>
+
+    <div class="swieto" id="swieto-rodziny">
+      <h3>Święto Rodziny</h3>
+      <p>Obchodzi się je na wiele sposobów — najważniejszy element to kolacja przy rodzinnym stole.</p>
+      <p><strong>Bogowie:</strong> Chors, Dadźbóg, Jutrzenka.</p>
+    </div>
+
+    <div class="swieto" id="noc-kupaly">
+      <h3>Noc Kupały</h3>
+      <p>Najważniejsze święto życia. Zbieranie wianków, ogniska, szukanie kwiatu paproci, obrzęd krwi zakochanych — wszystko to dla płodności i przyszłości dzieci.</p>
+      <p><strong>Bogowie:</strong> Chors i Dadźbóg.</p>
+    </div>
+
+    <div class="swieto" id="swieto-bogow">
+      <h3>Święto Bogów</h3>
+      <p>Świętuje się wszystko, co zawdzięczamy bogom. Śpiewy, tańce i piwo.</p>
+      <p><strong>Bóg:</strong> Wszyscy bogowie.</p>
+    </div>
+
+    <div class="swieto" id="chleb-i-wino">
+      <h3>Dzień Chleba i Wina</h3>
+      <p>Święto uciechy z dojrzewających plonów. Obchodzone głównie w Akwitanii i Łużycach. Kobiety śpiewają, mężczyźni piją.</p>
+      <p><strong>Bóg:</strong> Jaruna — bogini uzdrowienia i przyrody.</p>
+    </div>
+
+    <div class="swieto" id="plony">
+      <h3>Święto Plonów</h3>
+      <p>Równonoc jesienna — ostatni moment zbiorów. Kadzidłem święci się zebrane plony. Zwieńczenie dnia: piwo.</p>
+      <p><strong>Bóg:</strong> Jaruna — bogini uzdrowienia i przyrody.</p>
+    </div>
+
+    <div class="swieto" id="dziady-jesienne">
+      <h3>Dziady Jesienne</h3>
+      <p>Upamiętnienie przodków. Odwiedza się ich groby i je ozdabia. Skupia się na wspomnieniach, nie rozmowie.</p>
+      <p><strong>Bóg:</strong> Veles — bóg Zniszczenia i Śmierci.</p>
+    </div>
+
+    <div class="swieto" id="andrzejki">
+      <h3>Andrzejki i Katarzynki</h3>
+      <p>Święta wróżb i przepowiedni. Andrzejki dla dziewczyn, Katarzynki dla chłopców. Raczej okazja do poznania niż prorokowania.</p>
+      <p><strong>Bóg:</strong> Rod — bóg Magii i Alchemii.</p>
+    </div>
+
+    <div class="swieto" id="szczodre-gody">
+      <h3>Szczodre Gody</h3>
+      <p>Najdłuższe święto. Kolędowanie, 13 potraw (jedna z nich dla Roztoczni), sałatka jarzynowa, zwycięstwo życia nad śmiercią.</p>
+      <p><strong>Bogowie:</strong> Swaróg i Veles.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Życie po śmierci</h2>
+    <p>Każdy z nas kiedyś umrze — pytanie tylko co się dzieje dalej?</p>
+    <p>Według Jutrzenki człowiek posiada dwie dusze: duszę ciała i duszę świadomości. Po śmierci dusza ciała trafia do Velesa, jako zapłata za życie. Dusza świadomości trafia do boga, którego wyznawano — po uprzednim sądzie w Wyraju.</p>
+    <p>Gdy nikt nas nie chce, dusza trafia do Velesa i zostaje zamieniona w zwierzę albo demona prostego. Najgorszym losem jest jednak wysłanie duszy do Pierwszej Ruchomej — tam zamieniana jest w gwiazdę lub chmurę jako kara za herezję i brak wiary.</p>
+    <p><strong>Demony Rozumne</strong> mają podobnie: dusza ciała idzie do Velesa, a świadomość trafia pod opiekę Venery, Kroda lub Nyji — aż do reinkarnacji. Kiedy następuje? Tego nie wie nikt, a bogowie milczą.</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; Kompendium Nuli — świat Alatyru</p>
+  <p class="footer-note">
+    Łużyce 6e 29 r.<br />
+    „Drukarnia Jana i Pawła numeru dwa”<br />
+    Kopia oryginalnej księgi z 14d.05m.30r.6e.
+  </p>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const target = document.querySelector(hash);
+      if (target) {
+        target.classList.add("highlight-temp");
+        setTimeout(() => {
+          target.classList.add("fade-out");
+        }, 2000);
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

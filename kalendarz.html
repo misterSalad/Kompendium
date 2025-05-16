@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalendarz | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="kalendarz.css" />
+    <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Kalendarz</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="kultura.html">← Powrót do kultury</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="calendar-container">
+      <div class="calendar-header">
+        <button id="prevMonth">&lt;</button>
+        <h2 id="monthAndYear"></h2>
+        <button id="nextMonth">&gt;</button>
+      </div>
+      <div class="calendar-days">
+        <div>Pn</div><div>Wt</div><div>Śr</div><div>Czw</div><div>Pt</div><div>Sb</div><div>Nd</div>
+      </div>
+      <div class="calendar-grid" id="calendar"></div>
+    </div>
+  </main>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+  <script src="kalendarz.js" defer></script>
+</body>
+</html>

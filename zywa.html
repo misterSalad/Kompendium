@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Żywa | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .modlitwa {
+      padding: 1rem;
+      background-color: #f5efe5;
+      border-left: 4px solid var(--accent-color);
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .symbol-box {
+      float: right;
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .symbol-box img {
+      max-width: 120px;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .symbol-box p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .symbol-box {
+        float: none;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Żywa</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="bogowie.html">← Powrót do bogów</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+
+      <div class="symbol-box">
+        <img src="symbol-zywa.png" alt="Symbol Żywej" />
+        <p><strong>Symbol Żywej</strong></p>
+      </div>
+
+      <h2>Opis</h2>
+      <p><strong>Żywa</strong> to bogini Sprawiedliwości i Prawa, znana z tego, że jest jeszcze surowsza od samego Swaroga. Często widywana w Tesalii z Księgą Praw, interweniuje w przypadkach łamania zasad. Żywa jest szczególnie wroga wobec nieumarłych — nie toleruje ich istnienia i nagradza tych, którzy je niszczą.</p>
+
+      <h2>Modlitwa</h2>
+      <p>Żywa najbardziej przychylna jest osobom, które zwalczają nieumarłych i kierują się kodeksami moralnymi oraz prawnymi. Walka z demonami prostymi i rozumnymi, jeśli są oni nieumarłymi, jest postrzegana jako forma oddania. Im większy dorobek w tej sprawie, tym większe szanse na wysłuchanie modlitwy.</p>
+
+      <h2>Dodatkowe informacje</h2>
+      <ul>
+        <li>Podobno kiedyś Żywa zwymiotowała na widok Martwca.</li>
+        <li>Jaruna podarowała jej wilka, którego nazwała Astafl.</li>
+        <li>Żywa bardzo nie lubi się z Rodem – ich konflikty są powszechnie znane.</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

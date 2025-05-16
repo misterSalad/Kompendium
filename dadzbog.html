@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dadźbóg | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .modlitwa {
+      padding: 1rem;
+      background-color: #f5efe5;
+      border-left: 4px solid var(--accent-color);
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .symbol-box {
+      float: right;
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .symbol-box img {
+      max-width: 120px;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .symbol-box p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .symbol-box {
+        float: none;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Dadźbóg</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="bogowie.html">← Powrót do bogów</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+
+      <div class="symbol-box">
+        <img src="symbol-dadzbog.png" alt="Symbol Dadźboga" />
+        <p><strong>Symbol Dadźboga</strong></p>
+      </div>
+
+      <h2>Opis</h2>
+      <p><strong>Dadźbóg</strong> jest bogiem <strong>Słońca, szczęścia i urodzaju</strong>. Jego symbol jest często utożsamiany z <strong>męskością i ojcostwem</strong>. Jest znany z tego, że <strong>pomaga każdemu bez względu na status</strong>, wiek czy rasę. Według legend — zawsze mówi „dzień dobry” wchodząc do domu osoby, której pomaga. Taki z niego typ — dobry chłopak.</p>
+
+      <h2>Modlitwa</h2>
+      <p>Najlepszą formą modlitwy dla Dadźboga jest... <strong>rozmnażanie się</strong>. Tak, naprawdę. Ale jeśli nie jesteś gotów na taką formę czci, wystarczy <strong>szczera modlitwa na głos</strong>.</p>
+
+      <h2>Dodatkowe informacje</h2>
+      <ul>
+        <li>Znany jako <strong>obrońca ludzkości</strong>.</li>
+        <li>Głęboko wierzy w wartość rodziny. <strong>Potępia zarówno rodziców, jak i dzieci</strong>, którzy się wzajemnie krzywdzą.</li>
+        <li>Mówi się, że <strong>często pije piwo z ludźmi w Harmii</strong>... ale <strong>nigdy nie ma kaca</strong>.</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

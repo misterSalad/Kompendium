@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chors | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .modlitwa {
+      padding: 1rem;
+      background-color: #f5efe5;
+      border-left: 4px solid var(--accent-color);
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .symbol-box {
+      float: right;
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .symbol-box img {
+      max-width: 120px;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .symbol-box p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .symbol-box {
+        float: none;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Chors</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="bogowie.html">← Powrót do bogów</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+
+      <div class="symbol-box">
+        <img src="symbol-chors.png" alt="Symbol bogini Chors" />
+        <p><strong>Symbol Chors</strong></p>
+      </div>
+
+      <h2>Opis</h2>
+      <p><strong>Chors</strong> to <strong>bogini Księżyca, piękna oraz lenistwa</strong>. Jej symbol często utożsamiany jest z kobiecością oraz kobiecą energią. W przypadku Chors modlitwa pełna desperacji nie przynosi skutku — bogini ta słucha <strong>tylko tych, którzy naprawdę potrzebują pomocy</strong>, a nie tych, którzy nadużywają jej cierpliwości.</p>
+
+      <h2>Modlitwa</h2>
+      <p>Najlepszą modlitwą dla Chors jest <strong>dbanie o swoje ciało i odpowiedni sen</strong>. Tradycyjne modlitwy również są dopuszczalne, ale <strong>nie należy spodziewać się cudów</strong> — chyba że ktoś naprawdę jest w potrzebie.</p>
+
+      <h2>Dodatkowe informacje</h2>
+      <ul>
+        <li><strong>Jej nastrój zmienia się zgodnie z fazami Księżyca</strong>.</li>
+        <li>W Chortycy <strong>zaćmienie Słońca</strong> nazywane jest <em>„pocałunkiem Chors”</em>.</li>
+        <li><strong>Ulubione zwierzę Chors to kot</strong>, ponieważ — jak ona — dużo śpi.</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

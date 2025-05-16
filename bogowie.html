@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kultura | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .lista-bogow {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .lista-bogow li {
+      background-color: #f4ede5;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .lista-bogow li a {
+      text-decoration: none;
+      color: var(--accent-color);
+    }
+
+    .lista-bogow li:hover {
+      background-color: #f0e3d4;
+    }
+
+    .intro {
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Bogowie Alatyru</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="kultura.html">← Powrót do kultury</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <p class="intro">
+        Wybierz bóstwo, o którym chcesz przeczytać. Każdy z nich reprezentuje inne wartości, żywioły i aspekty życia — a ich kult wpływał na kulturę, rytuały i historię Alatyru przez wieki.
+      </p>
+
+      <ul class="lista-bogow">
+        <li><a href="antra.html">Antra</a></li>
+        <li><a href="chors.html">Chors</a></li>
+        <li><a href="dadzbog.html">Dadźbóg</a></li>
+        <li><a href="dola.html">Dola</a></li>
+        <li><a href="jaruna.html">Jaruna</a></li>
+        <li><a href="jutrzenka.html">Jutrzenka</a></li>
+        <li><a href="krodo.html">Krodo</a></li>
+        <li><a href="marzanna.html">Marzanna</a></li>
+        <li><a href="mokosz.html">Mokosz</a></li>
+        <li><a href="nyja.html">Nyja</a></li>
+        <li><a href="perun.html">Perun</a></li>
+        <li><a href="rod.html">Rod</a></li>
+        <li><a href="swarog.html">Swaróg</a></li>
+        <li><a href="veles.html">Veles</a></li>
+        <li><a href="venera.html">Venera</a></li>
+        <li><a href="zorza.html">Zorza</a></li>
+        <li><a href="zywa.html">Żywa</a></li>
+        <li><a href="inni.html">Inni bogowie</a></li>
+        <li><a href="starsi.html">Starzy bogowie</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

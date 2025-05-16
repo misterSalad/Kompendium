@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venera | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .modlitwa {
+      padding: 1rem;
+      background-color: #f5efe5;
+      border-left: 4px solid var(--accent-color);
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .symbol-box {
+      float: right;
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .symbol-box img {
+      max-width: 120px;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .symbol-box p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .symbol-box {
+        float: none;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Venera</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="bogowie.html">← Powrót do bogów</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+
+      <div class="symbol-box">
+        <img src="symbol-venera.png" alt="Symbol Venery" />
+        <p><strong>Symbol Venery</strong></p>
+      </div>
+
+      <h2>Opis</h2>
+      <p><strong>Venera</strong> to bogini Równowagi i Równości. Często przebywa w Ardzie, gdzie wspiera demony – zarówno rozumne, jak i proste. Znana jest z niechęci do wszelkich form niesprawiedliwości – szczególnie gdy ktoś zdobywa przewagę w nieuczciwy sposób. Na Alatyrze ingeruje rzadko, ale w światach demonicznych ma swoje „wtyczki” niemal wszędzie. Jej działania zawsze są uczciwe – nigdy nie osiąga niczego, co byłoby sprzeczne z zasadą równości.</p>
+
+      <h2>Modlitwa</h2>
+      <p>Venera nie rozdaje błogosławieństw czy cudów – modlitwa do niej nie przynosi nagrody, a raczej <em>wyrównanie szans</em>. Nie przyjmuje ofiar, nie zawiera paktów – liczy się dla niej jedynie twoja szczerość i czystość intencji. Gdy uzna, że działasz w zgodzie z zasadami równości – może wyrównać twoje szanse w konfrontacji z silniejszym przeciwnikiem.</p>
+
+      <h2>Dodatkowe informacje</h2>
+      <ul>
+        <li>Venera jest przyszywaną siostrą Viena, Antry i Triasa.</li>
+        <li>Podczas walki z Antrą zażądała od Swaroga równych szans – i uzyskała je.</li>
+        <li>Podobno kiedyś schlała się z Jaruną w Nawii. Źródło? Antra – i ponoć nie żartował.</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

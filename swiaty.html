@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Światy Demoniczne | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .lista-swiatow {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .lista-swiatow li {
+      background-color: #f4ede5;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .lista-swiatow li a {
+      text-decoration: none;
+      color: var(--accent-color);
+    }
+
+    .lista-swiatow li:hover {
+      background-color: #f0e3d4;
+    }
+
+    .quote {
+      font-style: italic;
+      margin: 2rem 0;
+      padding-left: 1rem;
+      border-left: 4px solid var(--accent-color);
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Światy Demoniczne</h1>
+      <nav>
+        <ul class="nav">
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="mapy.html">Mapa Świata</a></li>
+        <li><a href="panstwa.html">Państwa</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="kultura.html">Kultura</a></li>
+        <li><a href="nauka.html">Nauka</a></li>
+        <li><a href="zaklinanie.html">Zaklinanie</a></li>
+        <li><a href="gildie.html">Gildie</a></li>
+        <li><a href="astronomia.html">Astrologia i Astronomia</a></li>
+        <li><a href="zakonczenie.html">Zakończenie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="section">
+      <div class="quote">
+        “Warto zaznaczyć tutaj różnicę między Demonem Rozumnym a Demonem prostym. Rozumny, czyli ten co rozumie to Demon, który zachowuje się tak jak zwykły człowiek. Demon Prosty to taki diabeł co ci rękę upierdzieli jak spróbujesz z nim gadać, lub w skrócie taki co zachowuję się jak zwierzę”.<br>
+        <span style="display:block; text-align: right; margin-top: 1rem;">— Przewodnik po świecie demonicznym Bezpryma Słowińskiego</span>
+      </div>
+
+      <h2>Wybierz Świat</h2>
+      <ul class="lista-swiatow">
+        <li><a href="arda-gorna.html">Arda Górna</a></li>
+        <li><a href="arda-dolna.html">Arda Dolna</a></li>
+        <li><a href="dyj.html">Dyj</a></li>
+        <li><a href="kres.html">Kres</a></li>
+        <li><a href="rozet.html">Rozet</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

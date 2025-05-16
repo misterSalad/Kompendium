@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planety i inne ciała | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .image {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .section img {
+      display: block;
+      max-width: 75%;
+      height: auto;
+      margin: 1.5rem auto;
+      border: 2px solid var(--border-color);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Planety i inne ciała</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="astrologia.html">← Powrót do Astronimii</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Mapa planet</h2>
+      <p>
+        Mapa planet przedstawia rysunek kolejności planet i ich księżyców. Ta mapa również pokazuje konstelacje okresowe, ciała wstępowe i zstępowe, symbole znaków urodzeń oraz liczbę gwiazd w konstelacjach.
+      </p>
+
+      <div class="image">
+        <img src="planety.png" alt="Mapa Planet" />
+      </div>
+
+      <p>
+        Zacznijmy od definicji ciał zstępowych i wstępowych. <strong>Ciało zstępowe</strong> to takie, które pojawia się na niebie wraz ze wschodem lub tuż po zachodzie Słońca — ich ścieżki są powiązane z jego ruchem. 
+        <strong>Ciała wstępowe</strong> to te, które mogą pojawiać się niezależnie od pory dnia, niezależnie od Słońca i Księżyca.
+      </p>
+
+      <p>
+        Na mapie widzimy trzy kręgi: <strong>Wyraj</strong>, <strong>Pierwszą Ruchomą</strong> oraz <strong>Krąg Nawii</strong>.
+        <br /><strong>Wyraj</strong> to przestrzeń, gdzie poruszają się gwiazdy i dusze zmarłych.
+        <br /><strong>Pierwsza Ruchoma</strong> to sfera dla komet i mgławic.
+        <br /><strong>Krąg Nawii</strong> to świat bogów — niewidoczny i niedostępny dla ludzi.
+      </p>
+
+      <h2>Planety i przypisane bóstwa</h2>
+      <p>
+        Każda sfera planetarna ma swojego patrona, choć nie każdy bóg ma przypisaną sferę — wiele ciał niebieskich pozostaje jeszcze nieodkrytych.
+      </p>
+
+      <ul>
+        <li><strong>Piervo</strong> — sfera <strong>Swaroga</strong></li>
+        <li><strong>Vtoro</strong> — sfera <strong>Jutrzenki</strong></li>
+        <li><strong>Nule</strong> — sfera <strong>Chors</strong> i <strong>Zorzy</strong>, planeta ludzi</li>
+        <li><strong>Treto</strong> — sfera <strong>Trzech Braci</strong> i <strong>Venery</strong></li>
+        <li><strong>Chetvo</strong> — sfera <strong>Roda</strong>, <strong>Nyji</strong> i <strong>Kroda</strong></li>
+        <li><strong>Peto</strong> — sfera <strong>Peruna</strong>, <strong>Jaruny</strong>, <strong>Doli</strong>, <strong>Mokosz</strong> i <strong>Żywej</strong></li>
+      </ul>
+
+      <p>
+        Na mapie znajdziesz również symbole <strong>wstępu</strong>, <strong>zstępu</strong> i <strong>znak stały</strong> — ten ostatni dotyczy Nuli jako nieruchomej dla obserwatora. 
+        Pełna analiza "Ruchu ciał niebieskich po morzu nieba i Nawii" znajduje się w dziale astrologii.
+      </p>
+
+      <h2>Przyrządy do pomiarów</h2>
+      <p>Oto przyrządy, które pomagają w pomiarze pozycji planet i nieba:</p>
+      <ul>
+        <li>Astrolabium</li>
+        <li>Sekstant</li>
+        <li>Sfera armilarna</li>
+        <li>Astrarium</li>
+        <li>Kwadrant astrolabium</li>
+        <li>Kosmolabium</li>
+        <li>Nocturnal</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p class="footer-note">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

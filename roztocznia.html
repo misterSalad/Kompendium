@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roztocznia | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .herb-box {
+      float: right;
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .herb-box img {
+      width: 120px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .section h3 {
+      margin-top: 2rem;
+      color: var(--accent-color);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Roztocznia</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="panstwa.html">← Powrót do listy państw</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="section">
+      <div class="herb-box">
+        <img src="herb-roztoczni.png" alt="Herb Roztoczni">
+        <p><strong>Herb Roztoczni</strong></p>
+      </div>
+
+      <h3>Założyciele</h3>
+      <p>Roztocznię założyło trzynastu braci — ocalonych z zagłady poprzedniego kontynentu. Po dopłynięciu do nowego lądu, utworzyli osadę, gdzie każdego roku mieli się spotykać, by oceniać, czy ludzkości znów nie grozi zagłada ze strony bogów.</p>
+
+      <h3>Stolica</h3>
+      <p>Stolicą Roztoczni (a zarazem jej jedyną osadą) jest Valtis — niewielka osada zamieszkała przez ok. 2000 osób, w tym demony. Przebywają tu głównie zaklinacze, uczeni oraz służba odpowiedzialna za kuchnię i utrzymanie porządku. Każdego roku w Valtis odbywają się obrady poświęcone badaniu wpływu bogów na losy ludzi — zgodnie z ideą 13 Braci.</p>
+
+      <p>Na wyspie działa silne zaklęcie, które uniemożliwia narodziny jakiegokolwiek dziecka — ma to zapobiec późniejszym konfliktom o obywatelstwo i "narodowość" ewentualnych potomków, a także zachować charakter świętej ziemi bezstronnej.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

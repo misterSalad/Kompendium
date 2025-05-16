@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mokosz | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .modlitwa {
+      padding: 1rem;
+      background-color: #f5efe5;
+      border-left: 4px solid var(--accent-color);
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .symbol-box {
+      float: right;
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .symbol-box img {
+      max-width: 120px;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .symbol-box p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .symbol-box {
+        float: none;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Mokosz</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="bogowie.html">← Powrót do bogów</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+
+      <div class="symbol-box">
+        <img src="symbol-mokosz.png" alt="Symbol Mokosz" />
+        <p><strong>Symbol Mokosz</strong></p>
+      </div>
+
+      <h2>Opis</h2>
+      <p><strong>Mokosz</strong> to bogini polowań i hodowli. Uważana jest za jedną z najmniej objawiających się ludziom bogiń. Zaledwie garstka osób może pochwalić się tym, że ujrzała ją lub miała okazję doświadczyć jej łaski. Nie zmienia to jednak faktu, że lud Wieletni i Neretwy wiernie i dumnie ją czci.</p>
+
+      <h2>Modlitwa</h2>
+      <p>Najskuteczniejszym sposobem modlitwy do Mokosz jest <strong>złożenie ofiary ze zwierzęcia</strong> i okazanie szacunku do uśmierconego stworzenia. Rytuał musi odbyć się z godnością — zwierzę nie może cierpieć, a ofiara musi zostać wykorzystana w całości. Po udanym polowaniu zaleca się również słowne podziękowanie za dar od bogini.</p>
+
+      <h2>Dodatkowe informacje</h2>
+      <ul>
+        <li>Mokosz posiada ukochanego wilka, który towarzyszy jej w każdej wyprawie.</li>
+        <li>Słynie z surowości wobec osób, które znęcają się nad zwierzętami lub marnują pożywienie.</li>
+        <li>Zgodnie z legendami doskonale włada łukiem i dzidami, przewyższając umiejętnościami większość śmiertelników.</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

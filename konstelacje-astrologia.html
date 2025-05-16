@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konstelacje | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      color: var(--accent-color);
+      margin-top: 2.5rem;
+    }
+
+    .section h3 {
+      font-size: 1.2rem;
+      margin-top: 1.8rem;
+      color: #444;
+    }
+
+    .section p {
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+    }
+
+    .section ul {
+      padding-left: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .section ul li {
+      margin-bottom: 0.4rem;
+    }
+
+    .section img {
+      display: block;
+      max-width: 85%;
+      margin: 2rem auto;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Konstelacje</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="kategorie-astrologia.html">← Powrót do astrologii</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <h2>Wprowadzenie</h2>
+    <p>
+      Na nocnym niebie wyróżniamy <strong>30 konstelacji</strong>, z czego tylko 12 to znaki urodzenia. Dodatkowo istnieją 3 konstelacje okresowe: <strong>Simiargł</strong>, <strong>Moneta (Lel)</strong> oraz <strong>Worek (Polel)</strong>.
+    </p>
+
+    <h2>Mapa nieba</h2>
+    <img src="mapa-nieba.png" alt="Mapa nieba" />
+    <p>
+      Szare koło na mapie to pole widzenia danego miesiąca – podobnie jak w działaniu astrolabium. 
+      Konstelacje okresowe nie są zaznaczone, bo pojawiają się tylko w określonych momentach.
+    </p>
+
+    <h2>Lista wszystkich konstelacji</h2>
+    <div style="columns: 2; gap: 2rem;">
+      <ul>
+        <li>Nula</li><li>Duży Piorun</li><li>Łuk</li><li>Błysk</li><li>Luneta</li><li>Dzban</li><li>Rodzina</li><li>Tarcza</li>
+        <li>Wielka Niedźwiedzica</li><li>Muszelka</li><li>Strzała</li><li>Korona</li><li>Panna</li><li>Spadająca Gwiazda</li><li>Jeleń</li>
+      </ul>
+      <ul>
+        <li>Astrarium</li><li>Laska</li><li>Księga</li><li>Wędka</li><li>Ciupaga</li><li>Łódka</li><li>Warkocz</li><li>Dłoń</li>
+        <li>Kometa</li><li>Siekiera</li><li>Łodyga</li><li>Kwadrant Astrolabium</li><li>Mały Piorun</li><li>Łabędź</li><li>Lutnia</li>
+      </ul>
+    </div>
+
+    <h2>Znaki urodzenia (miesięczne)</h2>
+    <ul>
+      <li><strong>Jeleń</strong> — Styczeń (15)</li>
+      <li><strong>Kwadrant</strong> — Luty (27)</li>
+      <li><strong>Panna</strong> — Marzec (13)</li>
+      <li><strong>Korona</strong> — Kwiecień (12)</li>
+      <li><strong>Strzała</strong> — Maj (11)</li>
+      <li><strong>Muszelka</strong> — Czerwiec (10)</li>
+      <li><strong>Warkocz</strong> — Lipiec (22)</li>
+      <li><strong>Wielka Niedźwiedzica</strong> — Sierpień (9)</li>
+      <li><strong>Tarcza</strong> — Wrzesień (8)</li>
+      <li><strong>Wędka</strong> — Październik (19)</li>
+      <li><strong>Dzban</strong> — Listopad (6)</li>
+      <li><strong>Luneta</strong> — Grudzień (5)</li>
+    </ul>
+
+    <h2>Konstelacje okresowe</h2>
+    <ul>
+      <li><strong>Simiargł</strong> – pojawia się pod koniec każdej ery</li>
+      <li><strong>Moneta (Lel)</strong> – co 5 lat po zachodzie Słońca</li>
+      <li><strong>Worek (Polel)</strong> – co 5 lat w środku nocy</li>
+    </ul>
+
+    <p>
+      Cechy osobowości przypisywane do znaków pozostają przedmiotem nauk astrologicznych — warto je odkrywać samodzielnie.
+    </p>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; Kompendium Nuli — świat Alatyru</p>
+  <p class="footer-note">
+    Łużyce 6e 29 r.<br />
+    „Drukarnia Jana i Pawła numeru dwa”<br />
+    Kopia oryginalnej księgi z 14d.05m.30r.6e.
+  </p>
+</footer>
+
+</body>
+</html>

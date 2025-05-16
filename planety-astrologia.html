@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planety i inne ciała | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+      font-size: 1.8rem;
+    }
+
+    .section h3 {
+      font-size: 1.3rem;
+      margin-top: 1.2rem;
+      color: #333;
+    }
+
+    .section p {
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    .section img {
+      display: block;
+      max-width: 75%;
+      height: auto;
+      margin: 2rem auto;
+      border: 2px solid var(--border-color);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Planety i inne ciała</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="kategorie-astrologia.html">← Powrót do astrologii</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Opis planet</h2>
+      <p>
+        Tutaj wam opowiem o planetach i obserwacjach na ich temat, a także jak często są widoczne z Alatyru. 
+        Dla ułatwienia w czytaniu poniżej znajduje się również mapa planet:
+      </p>
+
+      <img src="mapa-planet.png" alt="Mapa Planet" />
+
+      <h3>Piervo</h3>
+      <p>
+        Sfera Swaroga, widoczna przez 30–40 dni w roku. Wspomaga myślenie, pobudza intelekt. 
+        Dla Drewan oznacza dobrze wykute bronie i zbroje. Rządzi konstelacjami Tarcza i Muszelka.
+      </p>
+
+      <h3>Vtoro (Jutrzenka)</h3>
+      <p>
+        Widoczna przez 180–220 dni w roku, niewidoczna przez kolejne 140–180. Wpływa pozytywnie na miłość i przyjemność. 
+        Przynosi szczęście Harmianom i Adgerczykom. Rządzi Strzałą i Wędką.
+      </p>
+
+      <h3>Treto</h3>
+      <p>
+        Widoczna około 200 dni w roku. Symbol wolności i swobody dla Demonów i Dregowiczów. Rządzi Koroną i Dzbanem.
+      </p>
+
+      <h3>Chetvo</h3>
+      <p>
+        Widoczna przez 235–245 dni, znika na około 165. Symbol filozofii i duchowości. Rządzi Lunetą i Panną.
+      </p>
+
+      <h3>Peto</h3>
+      <p>
+        Widoczna około 220 dni, niewidoczna przez 145. Symbol odpowiedzialności i dyscypliny. Obserwowana przez Kopernika podczas koniunkcji z Księżycem. Rządzi Jeleniem i Kwadrantem.
+      </p>
+
+      <h3>Słońce</h3>
+      <p>
+        Symbol życia i narodzin. Rządzi Niedźwiedziem. Widoczne… sami wiecie kiedy.
+      </p>
+
+      <h3>Księżyc</h3>
+      <p>
+        Widoczny za dnia i nocy, ale zmienia fazy i pory pojawiania się. Symbol emocji i potrzeb. Rządzi Warkoczem.
+      </p>
+
+      <h2>Jak odróżnić planetę od gwiazdy?</h2>
+      <p>
+        Gwiazdy migoczą, a planety świecą światłem stałym — to najprostszy sposób na ich rozróżnienie.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p class="footer-note">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

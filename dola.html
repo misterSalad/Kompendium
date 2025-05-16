@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dola | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .modlitwa {
+      padding: 1rem;
+      background-color: #f5efe5;
+      border-left: 4px solid var(--accent-color);
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .symbol-box {
+      float: right;
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .symbol-box img {
+      max-width: 120px;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .symbol-box p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .symbol-box {
+        float: none;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Dola</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="bogowie.html">← Powrót do bogów</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+
+      <div class="symbol-box">
+        <img src="symbol-dola.png" alt="Symbol Doli" />
+        <p><strong>Symbol Doli</strong></p>
+      </div>
+
+      <h2>Opis</h2>
+      <p><strong>Dola</strong> jest boginią <strong>Handlu, powodzenia i pieniędzy</strong>. Należy do najczęściej czczonych bogów na Alatyrze, ponieważ — chcemy tego czy nie — dobra materialne są dla większości ważne. Co ciekawe, <strong>Dola nie wspiera chciwców</strong>. Woli pomagać małym przedsiębiorcom, którzy próbują przebić się w trudnym świecie interesów.</p>
+
+      <h2>Modlitwa</h2>
+      <p>Dola ceni sobie pieniądz, więc oczekuje tego samego od swoich wiernych. W Nuri mówi się: <strong>„Szanuj pieniądz, bo ci biada.”</strong>. Nawet złamany grosz ma swoją wartość. Ale uwaga — <strong>na szybkie rezultaty nie licz</strong>. Jej błogosławieństwo przychodzi z czasem.</p>
+
+      <h2>Dodatkowe informacje</h2>
+      <ul>
+        <li><strong>Boi się świerszczy</strong> — nikt nie wie dlaczego.</li>
+        <li>W młodości... <strong>nie umiała liczyć</strong>.</li>
+        <li>Ma <strong>przekonujący głos</strong> — cokolwiek spróbuje Ci sprzedać, będziesz pewien, że to „układ życia”.</li>
+      </ul>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

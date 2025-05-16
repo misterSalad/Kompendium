@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kultura | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+        html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+    .lista-kategorii {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .lista-kategorii li {
+      background-color: #f4ede5;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .lista-kategorii li a {
+      text-decoration: none;
+      color: var(--accent-color);
+    }
+
+    .lista-kategorii li:hover {
+      background-color: #f0e3d4;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Kultura</h1>
+      <nav>
+        <ul class="nav">
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="mapy.html">Mapa Świata</a></li>
+        <li><a href="panstwa.html">Państwa</a></li>
+        <li><a href="swiaty.html">Światy Demoniczne</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="nauka.html">Nauka</a></li>
+        <li><a href="zaklinanie.html">Zaklinanie</a></li>
+        <li><a href="gildie.html">Gildie</a></li>
+        <li><a href="astronomia.html">Astrologia i Astronomia</a></li>
+        <li><a href="zakonczenie.html">Zakończenie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Wybierz kategorię</h2>
+      <ul class="lista-kategorii">
+        <li><a href="bogowie.html">Bogowie</a></li>
+        <li><a href="kalendarz.html">Kalendarz</a></li>
+        <li><a href="swieta.html">Święta</a></li>
+        <li><a href="zycie.html">Życie po śmierci</a></li>
+        <li><a href="herezja.html">Herezja</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Podstawy Astronomii | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .era-list {
+      list-style: square;
+      margin-left: 1.5rem;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Podstawy Astronomii</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="astrologia.html">← Powrót do Astronimii</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Wprowadzenie</h2>
+      <p>
+        Początek Astronomii sięga Trzeciej Ery, w której to zaczęto poważne badania na temat nieba i ruchu planet. 
+        System, w którym to Słońce kręci się wokół Nuli, wydawał się być najdogodniejszy i najbardziej logiczny dla przeciętnego Alatyrczyka.
+      </p>
+      <p>
+        Był jednak taki jeden, co nie za bardzo zgadzał się z takim układem – <strong>Mikołaj Kopernik</strong>, łużycki astronom i astrolog. 
+        Gdy Kopernik wydał swoją książkę <em>“O obrotach sfer niebieskich”</em>, wstrząsnął całym Alatyrem. 
+        Niektórzy rzekli nawet: <strong>“Wstrzymał Słońce, ruszył Ziemię.”</strong>
+      </p>
+      <p>
+        To odkrycie, choć początkowo nie zostało ciepło przyjęte, miało ogromne znaczenie. 
+        W jego następstwie <strong>Gracjan Galiński</strong> założył pierwszą Gildię Astronomów, a patronem został sam Kopernik.
+      </p>
+
+      <h2>Najważniejsze odkrycia według Er</h2>
+      <ul class="era-list">
+        <li><strong>Trzecia Era:</strong> Astrolabium, Heliocentryzm</li>
+        <li><strong>Czwarta Era:</strong> Sekstant, Teleskop, Mgławice Gwiazd</li>
+        <li><strong>Piąta Era:</strong> Sfera Gwiezdna, Księżyce innych Sfer</li>
+        <li><strong>Szósta Era:</strong> Kres</li>
+      </ul>
+
+      <p>
+        Wszystkie materiały, z jakich korzystałem, nabyłem w <strong>Leśnej</strong> — małym miasteczku w Redanii, które bardzo polecam. 
+        Tamtejsze niebo jest naprawdę niesamowite.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p class="footer-note">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

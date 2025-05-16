@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista Gildii | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .gildia-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .gildia-card {
+      background-color: #f4ede5;
+      padding: 1.2rem;
+      border-radius: 8px;
+      border: 2px solid var(--border-color);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .gildia-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .gildia-card strong {
+      display: block;
+      color: var(--accent-color);
+      font-size: 1.1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .gildia-card p {
+      margin: 0.2rem 0;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Lista Gildii</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="gildie.html">← Powrót do gildii</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Przegląd Gildii</h2>
+      <p>
+        Gildie dzielą się na dziedziny, którymi się zajmują. Poniżej znajdziesz listę gildii oraz ich specjalizacje — aby łatwiej było ci znaleźć idealne miejsce do nauki. Pamiętaj też, że wiele dziedzin można studiować również na uniwersytetach.
+      </p>
+
+      <ul class="gildia-grid">
+        <li class="gildia-card">
+          <strong>Gildia Najemników</strong>
+          <p>Założyciel: Jarosław Skierś</p>
+          <p>Szkolenie w walce i usługi ochrony dla ludności.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Ładu</strong>
+          <p>Założyciel: Fryderyk Hilarion</p>
+          <p>Walka z nieumarłymi, egzorcyzmy i egzekwowanie prawa.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Rzemiosła</strong>
+          <p>Założyciel: Lidia Remus</p>
+          <p>Nauka kowalstwa i prostego zaklinania przedmiotów.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Języków (Zaklinaczy)</strong>
+          <p>Założyciel: Rościsław Berezowski</p>
+          <p>Nauka języka bogów i zaklęć.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Konsyliarzy</strong>
+          <p>Założyciel: Damian Florenty</p>
+          <p>Specjalizacja w zielarstwie i leczniczych roślinach.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Progresu</strong>
+          <p>Założyciel: Renata Harkowska</p>
+          <p>Eksperymenty z maszynami i technologią.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Artystyczna</strong>
+          <p>Założyciel: Jan “Pierz” Polnylew</p>
+          <p>Kształci artystów, inspiruje i rozwija wyobraźnię.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Alchemików</strong>
+          <p>Założyciel: Slaven Goran</p>
+          <p>Tworzenie mikstur, badania nad eliksirem życia.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Astronomów</strong>
+          <p>Założyciel: Gracjan Galiński</p>
+          <p>Badanie gwiazd, planet i struktur kosmicznych.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Astrologów</strong>
+          <p>Założyciel: Kasper Goski</p>
+          <p>Analiza wpływu ciał niebieskich na ludzi i świat.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Budowniczych</strong>
+          <p>Założyciel: Oleg Torpowicz</p>
+          <p>Szkoła architektów, projektantów i zdobników.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Matematyków</strong>
+          <p>Założyciel: Tadeusz Milenski</p>
+          <p>Fundament wielu nauk — obliczenia, liczby, struktury.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Retoryki</strong>
+          <p>Założyciel: Grzegorz Kaznodziej</p>
+          <p>Nauka mowy, logiki i przekonywania.</p>
+        </li>
+
+        <li class="gildia-card">
+          <strong>Gildia Filozofów</strong>
+          <p>Założyciel: Mścisław Żelazny</p>
+          <p>Rozważania nad sensem życia i istotą istnienia.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa Nieba | Kompendium Nuli</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .section h2 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .section img {
+      display: block;
+      max-width: 75%;
+      height: auto;
+      margin: 1.5rem auto;
+      border: 2px solid var(--border-color);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .section ol {
+      padding-left: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .section li {
+      margin-bottom: 0.6rem;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+
+    /* Usunięcie efektów skalowania przy najechaniu */
+    .nav a {
+      transition: none !important;
+      transform: none !important;
+    }
+
+    .nav a:hover {
+      background-color: transparent !important;
+      transform: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Mapa Nieba</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="astrologia.html">← Powrót do Astronimii</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Opis i zastosowanie</h2>
+      <p>
+        Mapa nieba to rysunek, który przedstawia położenie gwiazd na niebie — służy jako przewodnik dla nawigatorów oraz podróżnych. 
+        Na temat znaczeń konstelacji wypowiem się w rozdziale o Astrologii, natomiast tutaj wytłumaczę, jak mniej więcej posługiwać się przedstawioną mapą.
+      </p>
+
+      <h2>Mapa Nieba</h2>
+      <img src="mapa.png" alt="Mapa Nieba" />
+
+      <p>
+        Na mapie można dostrzec pozycję gwiazdy polarnej w stosunku do pór roku oraz obrót jej ogonka. 
+        Gwiazdę polarną nazywa się również <strong>Orlą gwiazdą</strong> i jest częścią konstelacji Lutni. 
+        Przez jej jasność i idealną pozycję, łatwo użyć jej do nawigacji. Zaleca się do tego użycie <em>Sekstantu</em> lub <em>Astrolabium</em>, w zależności od sytuacji.
+      </p>
+
+      <h2>Jak używać mapy nieba?</h2>
+      <ol>
+        <li><strong>Zlokalizuj Orlą gwiazdę</strong> — najłatwiej po jej jasności; jej charakterystyczny ogon również pomoże w identyfikacji.</li>
+        <li><strong>Zmierzenie kąta elewacji</strong> — stań na stabilnym gruncie i trzymaj astrolabium pionowo. Skieruj alidadę na Orlą gwiazdę przez otwór lub przeziernik.</li>
+        <li><strong>Odczytaj kąt</strong> — z płytki astrolabium odczytaj wartość kąta elewacji.</li>
+      </ol>
+
+      <p>
+        Przykładowo: jeśli kąt elewacji wynosi <strong>51°</strong>, oznacza to, że znajdujesz się na szerokości 51 stopni północnej. 
+        Inne gwiazdy można wykorzystać do ustalenia długości geograficznej.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Kompendium Nuli — świat Alatyru</p>
+    <p class="footer-note">
+      Łużyce 6e 29 r.<br />
+      „Drukarnia Jana i Pawła numeru dwa”<br />
+      Kopia oryginalnej księgi z 14d.05m.30r.6e.
+    </p>
+  </footer>
+
+</body>
+</html>
